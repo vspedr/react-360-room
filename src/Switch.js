@@ -4,13 +4,20 @@ import {
   Text,
   VrButton,
   StyleSheet,
+  asset,
+  NativeModules,
 } from 'react-360';
 import { toggle } from './subscribe';
+
+const { AudioModule } = NativeModules;
 
 export default class Switch extends React.Component {
 
   toggleLight = () => {
     toggle();
+    AudioModule.playOneShot({
+      source: asset('Button-SoundBible.com-1420500901.wav'),
+    });
   }
 
   render() {
