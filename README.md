@@ -14,4 +14,6 @@
 
 ["Jason's Isometric Room"](https://poly.google.com/view/8NsrLwbXhfl) by [Jason Toff](https://poly.google.com/user/5htxoNYbJGa) is licensed under [CC-BY](https://creativecommons.org/licenses/by/2.0/)
 
-["Button Sound"](http://soundbible.com/772-Button.html) by Mike Koenig is licensed by [Attribution 3.0](https://creativecommons.org/licenses/by/3.0/us/)
+["Button Sound"](http://soundbible.com/772-Button.html) by Mike Koenig is licensed under [Attribution 3.0](https://creativecommons.org/licenses/by/3.0/us/)
+
+["The Jazz Piano](https://www.bensound.com/royalty-free-music/track/the-jazz-piano) by [Benjamin Tissot](https://www.bensound.com/)

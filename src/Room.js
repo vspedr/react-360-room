@@ -2,12 +2,14 @@ import React from 'react';
 import {
   View,
   PointLight,
+  NativeModules,
   // AmbientLight,
   asset,
 } from 'react-360';
 import Entity from 'Entity';
-
 import { subscribe } from './subscribe';
+
+const { AudioModule } = NativeModules;
 
 export default class Room extends React.Component {
   state = {
@@ -16,6 +18,15 @@ export default class Room extends React.Component {
 
   componentDidMount() {
     subscribe(this.toggleLight);
+    AudioModule.createAudio('jazz', {
+      source: asset('bensound-thejazzpiano.mp3'),
+      is3d: true,
+    });
+    AudioModule.play('jazz', {
+      position: [-3, 0, 0],
+      loop: true,
+      volume: 0.3,
+    });
   }
 
   toggleLight = () => {
